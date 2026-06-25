@@ -1,0 +1,18 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Secrets and Configuration
+.env
+.streamlit/secrets.toml
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Test Data (Optional: Remove this line if you WANT sample resumes on GitHub)
+test_data/
+tests/

@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "candidate_name": {"type": "string"},
+    "contact_email": {"type": "string"},
+    "contact_phone": {"type": "string"},
+    "summary": {"type": "string"},
+    "skills": {"type": "array", "items": {"type": "string"}},
+    "experience_years": {"type": "number"},
+    "education": {"type": "array", "items": {"type": "string"}},
+    "fit_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "strengths": {"type": "array", "items": {"type": "string"}},
+    "risks": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": [
+    "candidate_name",
+    "skills",
+    "experience_years",
+    "fit_score"
+  ],
+  "additionalProperties": false
+}

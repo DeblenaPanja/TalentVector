@@ -1,4 +1,17 @@
+import sys
+import os
+
+# Dynamically add the project root to the Python path so it can find the 'src' module
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 import streamlit as st
+from src.extractors import pdf_extractor, docx_extractor
+from src.services.llm_service import LLMService
+
+# (The rest of your app.py code continues here...)
+st.set_page_config(page_title="TalentVector", page_icon="📄", layout="wide")import streamlit as st
 from src.extractors import pdf_extractor, docx_extractor
 from src.services.llm_service import LLMService
 

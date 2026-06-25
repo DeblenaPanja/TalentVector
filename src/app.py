@@ -11,7 +11,8 @@ from src.extractors import pdf_extractor, docx_extractor
 from src.services.llm_service import LLMService
 
 # (The rest of your app.py code continues here...)
-st.set_page_config(page_title="TalentVector", page_icon="📄", layout="wide")import streamlit as st
+st.set_page_config(page_title="TalentVector", page_icon="📄", layout="wide")
+import streamlit as st
 from src.extractors import pdf_extractor, docx_extractor
 from src.services.llm_service import LLMService
 

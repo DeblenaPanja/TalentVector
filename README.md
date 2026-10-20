@@ -36,8 +36,8 @@
 * **🎯 Contextual Evaluation:** Evaluates candidate experience, qualifications, and core competencies against provided Job Descriptions.
 * **📊 ATS Match Scoring:** Calculates quantitative **ATS Match Scores (%)** for quick candidate ranking.
 * **🧠 Core Recruitment Insights:** Provides in-depth suitability analysis and professional role alignment.
-* **🔍 Skill Gap Analysis:** Highlights both ✅ **Skills Present** and ❌ **Skills Missing** to reveal critical qualification gaps[cite: 1].
-* **🚦 Actionable Hiring Recommendation:** Classifies candidates into clear next steps: **Interview**, **Review Further**, or **Reject**[cite: 1].
+* **🔍 Skill Gap Analysis:** Highlights both ✅ **Skills Present** and ❌ **Skills Missing** to reveal critical qualification gaps.
+* **🚦 Actionable Hiring Recommendation:** Classifies candidates into clear next steps: **Interview**, **Review Further**, or **Reject**.
 
 ---
 
@@ -79,32 +79,33 @@
 
 ```
 
-📂 Project Structure
-```text
+## 📁 Project Structure
 
-TALENTVECTOR/
+```text
+TalentVector/
 │
 ├── .github/
-│   └── workflows/            # CI/CD automation pipelines
+│   └── workflows/              # CI/CD automation pipelines
 │
-├── prompts/                  # Prompt engineering & evaluation assets
+├── prompts/                     # Prompt engineering and evaluation assets
 │
 ├── src/
-│   ├── components/           # Streamlit UI modular components
-│   ├── extractors/           # PDF & DOCX text parsing logic
-│   ├── models/               # Data schemas & validation modules
-│   ├── services/             # Core business logic & Groq integration
-│   ├── utils/                # System configuration & logging helpers
-│   └── app.py                # Main Streamlit application entry point
+│   ├── components/              # Modular Streamlit UI components
+│   ├── extractors/              # PDF and DOCX text extraction
+│   ├── models/                  # Data schemas and validation modules
+│   ├── services/                # Core business logic and Groq integration
+│   ├── utils/                   # Configuration and logging utilities
+│   └── app.py                   # Main Streamlit application
 │
-├── .env                      # Local environment configuration
-├── config.yaml               # Application global properties
-├── requirements.txt          # Python dependencies manifest
-└── README.md
-
+├── tests/                       # Unit and integration tests
+│
+├── .env.example                 # Environment variable template
+├── .gitignore                   # Files excluded from version control
+├── config.yaml                  # Application configuration
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
 ```
-🚀 Local Installation & Setup
-1. Clone the Repository
+1. set up Clone the Repository
    ```text
    git clone [https://github.com/deblena2007/TalentVector.git](https://github.com/deblena2007/TalentVector.git)
    cd TalentVector
@@ -139,13 +140,13 @@ Open http://localhost:8501 in your browser.
 🌐 Deployment
 TalentVector is production-ready for deployment on platforms such as Render:
 
-Push your latest code changes to GitHub[cite: 1].
+Push your latest code changes to GitHub .
 
-Connect your repository to your Render dashboard[cite: 1].
+Connect your repository to your Render dashboard .
 
-Add the required environment variable (GROQ_API_KEY) under secret settings[cite: 1].
+Add the required environment variable (GROQ_API_KEY) under secret settings .
 
-Trigger the deployment[cite: 1].
+Trigger the deployment .
 
 🔮 Roadmap & Future Enhancements
 📦 Multi-resume batch processing & dynamic queue
@@ -154,7 +155,7 @@ Trigger the deployment[cite: 1].
 
 🏆 Candidate ranking & comparison analytics
 
-📑 Export evaluation summaries to PDF / Excel
+📑 Export evaluation summaries to PDF / docs
 
 💬 Automated interview question generation
 
@@ -162,6 +163,7 @@ Trigger the deployment[cite: 1].
 Deblena Panja
 
 GitHub: @deblena2007
+app live at:  https://lnkd.in/gY3F6Dpw
 
 ⭐ Give a Star!
 If you find this repository useful, please consider giving it a Star on GitHub!

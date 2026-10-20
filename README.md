@@ -57,7 +57,7 @@
 
 ## 📈 Workflow Overview
 
-<div align="center">
+
 
 ```text
   📄 Resume Upload (PDF / DOCX)
